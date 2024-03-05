@@ -8,9 +8,9 @@ const NavigationBar = () => {
         <div className="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
           <div id="logo">
             <h1>
-              <a className="" href="index.html">
+              <Link className="" to="/">
                 GoodWill RO Water Purifier
-              </a>
+              </Link>
             </h1>
           </div>
           <div className="nav_w3ls">
@@ -21,15 +21,15 @@ const NavigationBar = () => {
               <input type="checkbox" id="drop" />
               <ul className="menu">
                 <li>
-                  <a href="index.html" className="active">
+                  <Link to="/" className="active">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="mx-lg-4 mx-md-3 my-md-0 my-2">
-                  <a href="about.html">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="contact.html">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
             </nav>
