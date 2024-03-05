@@ -1,12 +1,12 @@
 import Footer from "./components/Footer";
 import NavigationBar from "./components/NavigationBar";
-import Carousal from "./components/carousal";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
       <NavigationBar></NavigationBar>
-      <Carousal></Carousal>
+      <HomePage></HomePage>
       <Footer></Footer>
     </>
   );
