@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import NavigationBar from "./components/NavigationBar";
 import Carousal from "./components/carousal";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <NavigationBar></NavigationBar>
       <Carousal></Carousal>
+      <Footer></Footer>
     </>
   );
 }
