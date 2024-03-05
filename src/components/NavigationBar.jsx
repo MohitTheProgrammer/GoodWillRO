@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
@@ -8,9 +7,9 @@ const NavigationBar = () => {
         <div className="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
           <div id="logo">
             <h1>
-              <Link className="" to="/">
+              <NavLink exact to="/" activeClassName="active">
                 GoodWill RO Water Purifier
-              </Link>
+              </NavLink>
             </h1>
           </div>
           <div className="nav_w3ls">
@@ -21,15 +20,19 @@ const NavigationBar = () => {
               <input type="checkbox" id="drop" />
               <ul className="menu">
                 <li>
-                  <Link to="/" className="active">
+                  <NavLink exact to="/" activeClassName="active">
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="mx-lg-4 mx-md-3 my-md-0 my-2">
-                  <Link to="/about">About Us</Link>
+                  <NavLink to="/about" activeClassName="active">
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <NavLink to="/contact" activeClassName="active">
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </nav>
@@ -40,4 +43,4 @@ const NavigationBar = () => {
   );
 };
 
-export default NavigationBar
+export default NavigationBar;
