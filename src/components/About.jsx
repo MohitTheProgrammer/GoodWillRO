@@ -1,3 +1,5 @@
+import about2 from "../assets/images/about2.jpg"
+
 const About = () => {
   return (
     <div className="what py-5">
@@ -11,7 +13,7 @@ const About = () => {
           ubiquitous nature of water that means drinking enough each day is not
           at the top of many people’s lists of priorities.
         </p>
-        <img src="images/about2.jpg" alt="" className="img-fluid" />
+        <img src={about2} alt="" className="img-fluid" />
       </div>
     </div>
   );

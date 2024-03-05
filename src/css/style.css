@@ -1236,7 +1236,11 @@ a.w3_agile_google {
     opacity: 0;
     z-index: 99;
 }
+#stats{
+    background:url(../assets/images/bg.jpg) no-repeat center;
+    background-size: cover;
 
+}
 .popup-effect:target {
     visibility: visible;
     opacity: 1;

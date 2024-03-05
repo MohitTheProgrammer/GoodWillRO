@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="stats py-5" id="stats">
+    <div className="stats py-5" id="stats" style={{backgroundColor: "black"}}>
       <div className="container py-xl-5 py-lg-3">
         <h3 className="title-w3 text-wh text-center font-weight-bold mb-sm-5 mb-4">
           Our Statistics
