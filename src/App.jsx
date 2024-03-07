@@ -10,7 +10,7 @@ function App() {
     <>
       <NavigationBar></NavigationBar>
       <Routes>
-      <Route path="goodwillro/" element={<HomePage />} />
+      <Route path="GoodWillRO/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
       </Routes>
