@@ -7,7 +7,7 @@ const NavigationBar = () => {
         <div className="header d-md-flex justify-content-between align-items-center py-3 px-xl-5 px-lg-3 px-2">
           <div id="logo">
             <h1>
-              <NavLink exact to="/" activeClassName="active">
+              <NavLink exact to="GoodWillRO/" activeClassName="active">
                 GoodWill RO Water Purifier
               </NavLink>
             </h1>
